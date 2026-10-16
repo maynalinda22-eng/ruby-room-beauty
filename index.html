@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="lo">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#f7f3ec" />
+  <meta name="description" content="Ruby Room Beauty — ເຄື່ອງສຳອາງທີ່ຄັດສັນຢ່າງໃສ່ໃຈ ເພື່ອທຸກມື້ທີ່ເປັນຕົວທ່ານ" />
+  <title>Ruby Room Beauty — ຄວາມງາມໃນແບບຂອງທ່ານ</title>
+  <link rel="preconnect" href="https://images.unsplash.com" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <button class="mobile-menu" aria-label="ເປີດເມນູ" id="menuBtn"><span></span><span></span></button>
+    <a href="#shop" class="wordmark" aria-label="ໜ້າຫຼັກ Ruby Room Beauty"><img class="brand-logo" src="logo-ruby-room.jpeg" alt="Ruby Room Beauty" /></a>
+    <nav class="main-nav" id="mainNav"><a href="#shop" class="nav-link active">ຮ້ານຄ້າ</a><a href="#shop" class="nav-link">ເຄື່ອງສຳອາງ</a><a href="#shop" class="nav-link">ບຳລຸງຜິວ</a><a href="#shop" class="nav-link">ກ່ຽວກັບພວກເຮົາ</a></nav>
+    <div class="header-actions"><button class="icon-button search-toggle" aria-label="ຄົ້ນຫາສິນຄ້າ" id="searchBtn"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg></button><a href="#cart" class="bag-link" aria-label="ກະຕ່າສິນຄ້າ"><svg viewBox="0 0 24 24"><path d="M5 8h14l1 12H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg><span>ກະຕ່າ</span><b id="cartCount">0</b></a></div>
+  </header>
+  <main id="app" aria-live="polite"></main>
+  <footer class="site-footer"><div class="footer-top"><div><a href="#shop" class="wordmark footer-brand"><img class="brand-logo" src="logo-ruby-room.jpeg" alt="Ruby Room Beauty" /></a><p>Beauty, in your own way.<br/>ຄວາມງາມໃນແບບຂອງທ່ານ</p></div><div><h4>ຊ່ວຍເຫຼືອ</h4><a href="#shop">ຄຳຖາມທີ່ພົບເລື້ອຍ</a><a href="#shop">ການຈັດສົ່ງ ແລະ ການຄືນສິນຄ້າ</a><a href="#shop">ຕິດຕໍ່ພວກເຮົາ</a></div><div><h4>ຕິດຕາມພວກເຮົາ</h4><a href="#shop">Instagram</a><a href="#shop">LINE Official</a></div><div class="newsletter"><h4>ຂ່າວສານຈາກ Ruby</h4><p>ຮັບຂ່າວສານ ແລະ ສິດພິເສດກ່ອນໃຜ</p><form id="newsletterForm"><input type="email" placeholder="ອີເມວຂອງທ່ານ" required aria-label="ອີເມວ"/><button aria-label="ສະໝັກຮັບຂ່າວສານ">→</button></form></div></div><div class="footer-bottom"><span>© 2026 Ruby Room Beauty</span><span>ຊຳລະເງິນປອດໄພ · ໃສ່ໃຈທຸກລາຍລະອຽດ</span></div></footer>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
