@@ -11,3 +11,5 @@ body,button,input,select,textarea{font-family:'Noto Sans Lao','DM Sans',sans-ser
 .store-hero{grid-template-columns:1fr;min-height:0;padding:0}.store-hero .store-copy{width:100%;max-width:860px;margin:0 auto;padding:38px 8% 34px}.store-details{max-width:none}.store-hero+.section{margin-top:52px}
 @media(max-width:640px){.store-hero .store-copy{padding:28px 7% 24px}.store-hero+.section{margin-top:34px}}
 .product-variant{font-size:10px;line-height:1.5;color:var(--red);letter-spacing:.06em;margin:0 0 5px}
+
+.transfer-qr{margin:12px 0 18px;padding:16px;border:1px solid var(--line);background:#fffdfa;text-align:center}.transfer-qr[hidden]{display:none}.transfer-qr p{font-size:11px;line-height:1.7;color:#6f625a;margin:0 0 12px}.transfer-qr p:last-child{margin:12px 0 0}.transfer-qr img{display:block;width:min(100%,340px);height:auto;margin:0 auto;border:1px solid #eee5dc}
